@@ -1,0 +1,216 @@
+<sdf version='1.4'>
+  <world name='myworld'>
+
+    <include>
+	<uri>model://ground_plane</uri>
+    </include>
+    
+    <include>
+	<uri>model://sun</uri>
+    </include>
+
+    <include>
+	<uri>model://white</uri>
+    </include>
+
+    <!-- s00 -->
+
+    <include>
+	<uri>model://qr_code0</uri>
+    </include>
+
+    <include>
+	<uri>model://road_s0</uri>
+    </include>
+
+    <include>
+	<uri>model://qr_code00</uri>
+    </include>
+
+    <include>
+	<uri>model://road_s00</uri>
+    </include>
+
+    <include>
+	<uri>model://road_s000</uri>
+    </include>
+
+    <include>
+	<uri>model://qr_code000</uri>
+    </include>
+
+    <!-- s11 -->
+
+    <include>
+	<uri>model://qr_code1</uri>
+    </include>
+
+    <include>
+	<uri>model://road_s1</uri>
+    </include>
+
+    <include>
+	<uri>model://qr_code11</uri>
+    </include>
+
+    <include>
+	<uri>model://road_s11</uri>
+    </include>
+
+    <include>
+	<uri>model://road_s111</uri>
+    </include>
+
+    <include>
+	<uri>model://qr_code111</uri>
+    </include>
+
+    <!-- s22 -->
+
+    <include>
+	<uri>model://qr_code2</uri>
+    </include>
+
+    <include>
+	<uri>model://qr_code22</uri>
+    </include>
+
+    <include>
+	<uri>model://qr_code222</uri>
+    </include>
+
+    <include>
+	<uri>model://road_s2</uri>
+    </include>
+
+    <include>
+	<uri>model://road_s22</uri>
+    </include>
+
+    <include>
+	<uri>model://road_s222</uri>
+    </include>
+
+    <!-- s33 -->
+
+    <include>
+	<uri>model://qr_code3</uri>
+    </include>
+
+    <include>
+	<uri>model://qr_code33</uri>
+    </include>
+
+    <include>
+	<uri>model://qr_code333</uri>
+    </include>
+
+    <include>
+	<uri>model://road_s3</uri>
+    </include>
+
+    <include>
+	<uri>model://road_s33</uri>
+    </include>
+
+    <include>
+	<uri>model://road_s333</uri>
+    </include>
+
+    <!-- w00 -->
+    <include>
+	<uri>model://road_w0</uri>
+    </include>
+    
+    <include>
+	<uri>model://road_w00</uri>
+    </include>
+
+    <include>
+	<uri>model://road_w000</uri>
+    </include>
+
+    <!-- w11 -->
+    <include>
+	<uri>model://road_w1</uri>
+    </include>
+
+    <include>
+	<uri>model://road_w11</uri>
+    </include>
+
+    <include>
+	<uri>model://road_w111</uri>
+    </include>
+
+    <!-- w22 -->
+    <include>
+	<uri>model://road_w2</uri>
+    </include>
+
+    <include>
+	<uri>model://road_w22</uri>
+    </include>
+
+    <include>
+	<uri>model://road_w222</uri>
+    </include>
+
+    <!-- w33 -->
+    <include>
+	<uri>model://road_w3</uri>
+    </include>
+
+    <include>
+	<uri>model://road_w33</uri>
+    </include>
+
+    <include>
+	<uri>model://road_w333</uri>
+    </include>
+
+    <!--else-->
+    <include>
+	<uri>model://road_s_home</uri>
+    </include>
+
+    <include>
+	<uri>model://road_s_end</uri>
+    </include>
+
+    <include>
+	<uri>model://road_w_build</uri>
+    </include>
+
+    <include>
+	<uri>model://road_w_tower</uri>
+    </include>
+
+    <include>
+	<uri>model://qr_code_build</uri>
+    </include>
+
+    <include>
+	<uri>model://qr_code_tower</uri>
+    </include>
+
+    <include>
+	<uri>model://home</uri>
+    </include>
+
+    <include>
+	<uri>model://end</uri>
+    </include>
+
+    <include>
+	<uri>model://build</uri>
+    </include>
+
+    <include>
+	<uri>model://tower</uri>
+    </include>
+    
+
+  </world>
+</sdf>
+

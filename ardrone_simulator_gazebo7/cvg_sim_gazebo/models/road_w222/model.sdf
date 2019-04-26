@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<sdf version ='1.4'>
+
+<model name='road_w222'>
+      <static>1</static>
+      <link name='field'>
+        <pose>-0.2 0.8  0.02 0 0 1.57 </pose>
+        <collision name='collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>0.2 1</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name='road'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+               <size>0.2 1</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://road_w222/materials/scripts/</uri>
+              <uri>model://road_w222/materials/textures/</uri>
+              <name>DroneSim/Road_w222</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+</model>
+</sdf>
