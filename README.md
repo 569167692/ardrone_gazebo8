@@ -9,4 +9,12 @@
 
 ## 安装步骤：  
 ### 1.安装Gazbeo8环境  
-    #### sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
+    (1)添加sources.list  
+    sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
+    (2)添加key
+    wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
+    (3)更新软件
+    sudo apt-get update
+    (4)安装gazebo8
+    sudo apt-get install gazebo8
+    sudo apt-get install libgazebo8-dev
