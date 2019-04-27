@@ -78,10 +78,10 @@
     cd catkin_ws
     source devel/setup.bash
     roslaunch cvg_sim_gazebo ardrone_testworld.launch
-    
-    启动后，界面如下：
-    ![add image](https://github.com/ldgcug/ardrone_gazebo8/raw/master/gazebo.png)
-    
+  
+启动后，界面如下：
+![gazebo.png](https://github.com/ldgcug/ardrone_gazebo8/raw/master/gazebo.png)
+   
     (2)运行键盘控制程序
     注：若是第一次运行键盘控制程序，需要先将py程序变为可执行文件，只要执行过此步骤，以后都不需要再直行具体操作如下
     cd ~/catkin_ws/src/ardrone_tutorials/src
@@ -91,9 +91,10 @@
     cd catkin_ws
     source devel/setup.bash
     rosrun ardrone_tutorials keyboard_controller.py
-    
-    运行键盘控制程序，会出现一个ardrone的视角图片窗口，在该窗口参照py程序上面提示按键，即可飞行，界面如下：
-    ![keyboard.png](https://github.com/ldgcug/ardrone_gazebo8/raw/master/keyboard.png)
+  
+  
+运行键盘控制程序，会出现一个ardrone的视角图片窗口，在该窗口参照py程序上面提示按键，即可飞行，界面如下：
+![keyboard.png](https://github.com/ldgcug/ardrone_gazebo8/raw/master/keyboard.png)
 
 
     
