@@ -79,6 +79,9 @@
     source devel/setup.bash
     roslaunch cvg_sim_gazebo ardrone_testworld.launch
     
+    启动后，界面如下：
+    
+    
     (2)运行键盘控制程序
     注：若是第一次运行键盘控制程序，需要先将py程序变为可执行文件，只要执行过此步骤，以后都不需要再直行具体操作如下
     cd ~/catkin_ws/src/ardrone_tutorials/src
