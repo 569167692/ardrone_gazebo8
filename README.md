@@ -52,13 +52,11 @@
     mkdir -p ~/catkin_ws/src
     cd  ~/catkin_ws
     catkin_make
-    source devel/setup.bash
+    source ~/catkin_ws/devel/setup.bash
     
-    (2)下载ardrone_autonomy包到 ~/catkin_ws/src目录下，ardrone_autonomy是ardrone无人机飞行所需要的驱动包
-    
-    (3)下载ardrone_simulator_gazebo7包到 ~/catkin_ws/src目录下，ardrone_simulator_gazebo7是ardrone无人机所处的仿真世界环境
-    
-    (4)下载ardrone_tutorials包到 ~/catkin_ws/src目录下，ardrone_tutorials是ardrone的键盘控制程序
+    (2)clone文件
+    cd 
+    git clone https://github.com/ldgcug/ardrone_gazebo8.git
     
     (5)编译环境
     catkin_make
@@ -72,7 +70,14 @@
     
     (7)Source 环境
     source ~/.bashrc
-    source devel/setup.bash  
+    source ~/catkin_ws/devel/setup.bash  
+    
+    说明：
+    ardrone_autonomy是ardrone无人机飞行所需要的驱动包
+    
+    ardrone_simulator_gazebo7是ardrone无人机所处的仿真世界环境
+    
+    ardrone_tutorials是ardrone的键盘控制程序
 ### 5.运行仿真环境
     (1)启动launch文件，打开gazebo仿真世界模型
     cd catkin_ws
