@@ -58,17 +58,20 @@
     cd 
     git clone https://github.com/ldgcug/ardrone_gazebo8.git
     
-    (5)编译环境
+    (3)将下载的文件拷贝到  ~/catkin_ws/src 目录下（主要为：ardrone_autonomy、ardrone_simulator_gazebo7、ardrone_tutorials）
+    
+    (4)编译环境
+    cd ~/catkin_ws
     catkin_make
     
-    (6)配置环境(~/.bashrc文件)
+    (5)配置环境(~/.bashrc文件)
     在~/.bashrc文件末尾添加如下两行代码
     source ~/catkin_ws/devel/setup.bash
     
     配置gazebo model路径,我的pwd为"/home/cug/catkin_ws/src/ardrone_simulator_gazebo7/cvg_sim_gazebo/models",根据自己的路径相应修改
     export GAZEBO_MODEL_PATH=pwd
     
-    (7)Source 环境
+    (6)Source 环境
     source ~/.bashrc
     source ~/catkin_ws/devel/setup.bash  
     
